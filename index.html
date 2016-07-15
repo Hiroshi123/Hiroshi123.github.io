@@ -32,15 +32,10 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/Hiroshi123">My GitHub</a>
-          <h1 id="project_title"></h1>
-          <h2 id="project_tagline"></h2>
+          <h1 id="project_title">jump</h1>
+          <h2 id="project_tagline">tag1</h2>
         </header>
     </div>
-    {% if paginator.total_pages > 1 %}<!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %} <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="prev">Newer Posts</a> {% endif %}
-    {% if paginator.next_page %} <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Older Posts</a>{% endif %}
-  </div>{% endif %}
     
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
